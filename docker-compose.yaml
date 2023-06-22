@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  sowmya-ui-app:
+    image: sowmya-web:app$BUILD_NUMBER
+    build: .
+    container_name: sowmyac1
+    ports:
+    - 1234:80
